@@ -5,7 +5,7 @@ public class Atv08 {
         Scanner leitor = new Scanner(System.in);
 
         System.out.println("Digite um número de 1 a 7: ");
-        int numero = leitor.nextInt();
+        final int numero = leitor.nextInt();
         String dia = "";
         switch (numero) {
             case 1:
